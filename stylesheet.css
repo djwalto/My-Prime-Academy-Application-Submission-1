@@ -1,32 +1,52 @@
-body {
-  background-color: white;
+html {
+  background: url(https://cdn.nohat.cc/thumb/f/720/4666479677014016.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
+
+#social a:link, a:visited {
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block
+}
 p {
  font-style: italic;
- font-size: 20px;
+ font-size: 18px;
  font-style: bold; 
 }
 
 img {
+  float: right;
   width: 25%; 
+  border-radius: 50%;
 }
 
 h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   font-size: 45px;
   margin-bottom: -15px;
 }
 
 h4 {
-  font-size: 20px;
-  
+  font-size: 16px;
 }
+  
+
 h2 {
-    border-style: solid;
-    border-width: 3px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: gray;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  border-style: solid;
+  border-width: 3px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: gray;
 }
 
+li {
+  font-size: 14px;
+}
