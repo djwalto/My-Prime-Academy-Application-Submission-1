@@ -1,21 +1,24 @@
 html {
-  background: url(https://cdn.nohat.cc/thumb/f/720/4666479677014016.jpg) no-repeat center fixed;
+  background: url(https://cdn.nohat.cc/thumb/f/720/4666479677014016.jpg);
   background-size: cover;
 }
 
+#facebook {
+  margin: 175px;
+  margin-top: -170px;
 
-#social a:link, a:visited {
-  background-color: blue;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block
 }
+
+#linkedin {
+  margin: 175px;
+  margin-top: -60px;
+}
+
 p {
- font-style: italic;
- font-size: 18px;
- font-style: bold; 
+  margin-top: 250px;
+  font-style: italic;
+  font-size: 18px;
+  font-style: bold;
 }
 
 img {
